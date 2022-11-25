@@ -1,17 +1,21 @@
 /**
- * Calcola la somma dei primi 10 numeri di un array.
+ * Calcola la somma e la media dei primi 10 numeri di un array.
  */
 
 
 
 
-const numbers = [484, 454864, 2, 2959, 45, 49498, 7878, 4, 96, 58, 45, 78, 6]
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 
 let sum = 0;
+let average = 0;
 
 for ( i = 0; i < 10; i++) {
 
     sum += numbers[i];
+
+    average = sum / 10
 }
 
 console.log (sum)
+console.log (average)
