@@ -13,9 +13,9 @@ let average = 0;
 for ( i = 0; i < 10; i++) {
 
     sum += numbers[i];
-
-    average = sum / 10
 }
+
+average = sum / 10
 
 console.log (sum)
 console.log (average)
